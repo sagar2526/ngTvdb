@@ -1,0 +1,42 @@
+@import "../../stylesheets/_variables.scss";
+
+.auth-card {
+  width: 20rem;
+  margin: 5rem auto;
+
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    .form-group {
+      position: relative;
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        padding: 0 0.5rem;
+        color: $text-muted;
+      }
+    }
+    input[type="text"], input[type="password"] {
+      padding: 0 2rem;
+      border-radius: 0;
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 0.7rem;
+      color: $text-muted;
+      text-align: center;
+      a {
+        color: #000;
+      }
+    }
+    button {
+      margin: 0.5rem 0;
+    }
+  }
+}

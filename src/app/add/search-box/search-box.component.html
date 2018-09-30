@@ -1,0 +1,20 @@
+
+<div class="container">
+		<div class="card-add">
+			<div class="card">
+				  <h6 class="card-header">ADD TV SHOW</h6>
+				  <div class="card-body">
+				    <h5 class="card-title">Name</h5>
+				    <input class="card-text" type="text" name="movie-text" [(ngModel)]="showName" placeholder="Enter TV show name">
+				    <a (click)="searchShow()" class="btn btn-primary">Search</a>
+				    {{showName}}
+				  </div>
+             </div>	
+		</div>
+		
+		 <div>
+		 	<ul>
+		 		<li *ngFor="let show of shows$">{{show.seriesname}}</li>
+		 	</ul>
+		 </div>
+	</div>
