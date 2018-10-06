@@ -14,7 +14,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchBoxComponent } from './add/search-box/search-box.component';
 import { ShowlistComponent } from './add/showlist/showlist.component';
 import { ShowService } from './show.service';
-import { ShowCardComponent } from './add/showlist/show-card/show-card.component'
+import { ShowCardComponent } from './add/showlist/show-card/show-card.component';
+import { HomelistComponent } from './home/homelist/homelist.component';
+import { HomecardComponent } from './home/homelist/homecard/homecard.component'
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { ShowCardComponent } from './add/showlist/show-card/show-card.component'
     NavbarComponent,
     SearchBoxComponent,
     ShowlistComponent,
-    ShowCardComponent
+    ShowCardComponent,
+    HomelistComponent,
+    HomecardComponent
   ],
   imports: [
     BrowserModule,

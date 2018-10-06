@@ -1,8 +1,10 @@
-<div class="card">
+<div class="card" >
+	<img class="card-img-top" src="http://thetvdb.com/banners/{{showDetails.poster}}" alt="Card image cap">
+
 	<div class="card-body">
 		<span>{{showDetails.seriesname}}</span>
 		<div class="btn-add">
-		<button type="button" class="btn btn-primary" name="addShow">ADD</button>
+		<button type="button" class="btn btn-primary" name="addShow" (click)="addShow()">ADD</button>
 	</div>
 	</div>
 

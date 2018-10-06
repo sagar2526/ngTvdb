@@ -1,9 +1,6 @@
 <div class="container">
 <div class="row">
-  <div class="card">
-  	<div class="card-body">
-  		<app-show-card *ngFor= "let show of shows" [show]="show"></app-show-card>
-  	</div>
-  </div>
+  		<app-show-card class="col-lg-3 col-md-4 col-sm-6" *ngFor= "let show of shows" [show]="show"></app-show-card>
+
 </div>
 </div>
